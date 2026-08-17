@@ -25,3 +25,17 @@ git checkout main
 
 # Merge testing branch
 git merge testing/my-testing
+
+# Push the merged main to GitHub
+git push origin main
+
+---
+
+# Stage changes
+git add .
+
+# Commit
+git commit -m "Add new Note to Main"
+
+# Push origin main
+git push origin main
