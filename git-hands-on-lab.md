@@ -13,6 +13,13 @@ git checkout testing/my-testing
 # Stage and commit
 git add .
 git commit -m "Add new testing"
+
+# Push the branch to GitHub
+git push origin testing/my-testing
+
+# You can check your current branch anytime with:
+git branch
+
 # Switch back to main
 git checkout main
 
